@@ -6,4 +6,7 @@ using SparseArrays
     b::Int64
     c::Int64
     d::SparseArrays.SparseMatrixCSC{Int64,Int64}
+    function Foo(a, b, c, d)
+        d isa SparseArrays.SparseMatrixCSC{Int64,Int64} || throw(ArgumentError("`b` is not an Integer!"))
+    end
 end
