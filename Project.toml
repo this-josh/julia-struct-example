@@ -1,0 +1,9 @@
+name = "ex"
+uuid = "fe8c4ca5-7231-42dc-9e04-7072d29346c2"
+authors = ["Josh Kirk <91748819+JoshKImperial@users.noreply.github.com>"]
+version = "0.1.0"
+
+[deps]
+Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
